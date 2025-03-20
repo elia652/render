@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3030;
 let data={'name':"elia","age":"21"};
 
 app.get('/', (req, res) => {
-  res.json(data.name);
+  res.json(data);
 });
 
 app.listen(PORT, () => {
